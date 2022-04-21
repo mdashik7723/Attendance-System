@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online Attendance System</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+<body>
+<h1>Classroom Attendance</h1>
+<table align="center">
+    <tr>
+        <th><u>Student:</u></th>
+        <th><u>Present:</u></th>
+        <th><u>Absent:</u></th>
+    </tr>
+    <tr>
+        <td>Mahim</td>
+        <td>
+            <label class="container">
+                <input type="checkbox" id="present1" onclick="check(this.id)">
+                <span class="checkmark"></span>
+            </label>
+        </td>
+        <td>
+            <label class="container">
+                <input type="checkbox" id="not1" onclick="check(this.id)">
+                <span class="checkmark"></span>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>Chaity</td>
+        <td>
+            <label class="container">
+                <input type="checkbox" id="present2" onclick="check(this.id)">
+                <span class="checkmark"></span>
+            </label>
+        </td>
+        <td>
+            <label class="container">
+                <input type="checkbox" id="not2" onclick="check(this.id)">
+                <span class="checkmark"></span>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>Faiza</td>
+        <td>
+            <label class="container">
+                <input type="checkbox" id="present3" onclick="check(this.id)">
+                <span class="checkmark"></span>
+            </label>
+        </td>
+        <td>
+            <label class="container">
+                <input type="checkbox" id="not3" onclick="check(this.id)">
+                <span class="checkmark"></span>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>Sadaf</td>
+        <td>
+            <label class="container">
+                <input type="checkbox" id="present4" onclick="check(this.id)">
+                <span class="checkmark"></span>
+            </label>
+        </td>
+        <td>
+            <label class="container">
+                <input type="checkbox" id="not4" onclick="check(this.id)">
+                <span class="checkmark"></span>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>Sadman</td>
+        <td>
+            <label class="container">
+                <input type="checkbox" id="present5" onclick="check(this.id)">
+                <span class="checkmark"></span>
+            </label>
+        </td>
+        <td>
+            <label class="container">
+                <input type="checkbox" id="not5" onclick="check(this.id)">
+                <span class="checkmark"></span>
+            </label>
+        </td>
+    </tr>
+    <tr>
+        <td>Anika</td>
+        <td>
+            <label class="container">
+                <input type="checkbox" id="present6" onclick="check(this.id)">
+                <span class="checkmark"></span>
+            </label>
+        </td>
+        <td>
+            <label class="container">
+                <input type="checkbox" id="not6" onclick="check(this.id)">
+                <span class="checkmark"></span>
+            </label>
+        </td>
+    </tr>
+</table>
+<button id="button">Submit</button>
+<h2 id="result"></h2>
+</body>
+</html>
